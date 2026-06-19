@@ -1,149 +1,71 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Six Seven (67) - Geschichte</title>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+body {
+    background: linear-gradient(135deg, #ff0080, #7928ca, #00d4ff);
+    color: white;
+    line-height: 1.6;
+    min-height: 100vh;
+}
 
-        body {
-            background: #f7f9fc;
-            color: #333;
-            line-height: 1.6;
-        }
+header {
+    background: linear-gradient(90deg, #ffea00, #ff6b00);
+    color: #111;
+    text-align: center;
+    padding: 70px 20px;
+    box-shadow: 0 0 25px rgba(255, 234, 0, 0.8);
+}
 
-        header {
-            background: linear-gradient(135deg, #7cc6ff, #b8e1ff);
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
-        }
+header h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
 
-        header h1 {
-            font-size: 3rem;
-        }
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
 
-        header p {
-            margin-top: 10px;
-            font-size: 1.2rem;
-        }
+.card {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    border: 3px solid #00ffff;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px #00ffff;
+}
 
-        .container {
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
+h2 {
+    color: #ffea00;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #ffea00;
+}
 
-        .card {
-            background: white;
-            padding: 30px;
-            margin-bottom: 25px;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-        }
+.timeline-item {
+    background: rgba(0,0,0,0.25);
+    border-left: 8px solid #ff00ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ff00ff;
+}
 
-        h2 {
-            color: #4da6ff;
-            margin-bottom: 15px;
-        }
+.highlight {
+    color: #00ffff;
+    font-weight: bold;
+}
 
-        .timeline {
-            display: grid;
-            gap: 15px;
-        }
-
-        .timeline-item {
-            background: #eef7ff;
-            padding: 15px;
-            border-left: 5px solid #4da6ff;
-            border-radius: 8px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #dff1ff;
-            margin-top: 40px;
-        }
-
-        .highlight {
-            color: #4da6ff;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Six Seven (67)</h1>
-        <p>Eine der bekanntesten Drill-Gruppen aus London</p>
-    </header>
-
-    <div class="container">
-
-        <div class="card">
-            <h2>Über Six Seven</h2>
-            <p>
-                <span class="highlight">67</span> ist eine britische Drill-Rap-Gruppe aus dem
-                Stadtteil Brixton in London. Die Gruppe gilt als eine der wichtigsten Formationen
-                der UK-Drill-Szene und hat das Genre maßgeblich geprägt.
-            </p>
-        </div>
-
-        <div class="card">
-            <h2>Geschichte von 67</h2>
-
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <strong>2014–2015</strong><br>
-                    Die Gruppe gewinnt durch YouTube und soziale Medien an Aufmerksamkeit.
-                    Frühe Songs verbreiten sich schnell innerhalb der britischen Rap-Szene.
-                </div>
-
-                <div class="timeline-item">
-                    <strong>2015–2016</strong><br>
-                    Mit erfolgreichen Veröffentlichungen etabliert sich 67 als eine der
-                    führenden Gruppen des UK Drill. Ihr düsterer Sound und die direkten Texte
-                    werden zum Markenzeichen.
-                </div>
-
-                <div class="timeline-item">
-                    <strong>2017–2019</strong><br>
-                    Die Bekanntheit der Gruppe wächst weiter. Viele neue Drill-Künstler nennen
-                    67 als wichtigen Einfluss auf ihre Musik.
-                </div>
-
-                <div class="timeline-item">
-                    <strong>Heute</strong><br>
-                    67 wird häufig als eine der Gruppen bezeichnet, die den modernen UK Drill
-                    entscheidend geprägt und international bekannt gemacht haben.
-                </div>
-
-            </div>
-        </div>
-
-        <div class="card">
-            <h2>Bedeutung für UK Drill</h2>
-            <p>
-                Die Gruppe trug dazu bei, dass Drill-Musik in Großbritannien große Popularität
-                erreichte. Ihr Stil beeinflusste zahlreiche Künstler und half dabei,
-                das Genre über die Grenzen Londons hinaus bekannt zu machen.
-            </p>
-        </div>
-
-    </div>
-
-    <footer>
-        <p>© 2026 Six Seven Fan-Website</p>
-    </footer>
-
-</body>
-</html>
+footer {
+    background: #111;
+    color: #ffea00;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 20px #ffea00;
+}
